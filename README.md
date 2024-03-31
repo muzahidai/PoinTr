@@ -138,6 +138,10 @@ bash ./scripts/test.sh 0 \
     --config ./cfgs/Projected_ShapeNet55_models/AdaPoinTr.yaml \
     --exp_name example
 ```
+For example 
+```
+bash ./scripts/test.sh 0 --ckpts ./pretrained/PoinTr_PCN.pth --config ./cfgs/PCN_models/PoinTr.yaml --exp_name example
+```
 Test the PoinTr pretrained model on ShapeNet55 benchmark (*easy* mode):
 ```
 bash ./scripts/test.sh 0 \
