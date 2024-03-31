@@ -40,7 +40,7 @@ We provide pretrained AdaPoinTr models (coming soon):
 | PCN |  [[Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/b822a5979762417ba75e/?dl=1)] / [[Google Drive](https://drive.google.com/file/d/17pE2U2T2k4w1KfmDbL6U-GkEwD-duTaF/view?usp=share_link)]  / [[BaiDuYun](https://pan.baidu.com/s/1KWccgcKXVIdVo4wJAmZ_8w?pwd=rc7p)](code:rc7p)  | CD = 6.53e-3|
 ## Usage
 
-### Requirements
+### Requirements   // Installed on ubuntu18.04, Cuda11.0 (muzahidai)
 
 - PyTorch >= 1.7.0
 - python >= 3.7
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 ```
 # Chamfer Distance
-bash install.sh
+bash install.sh    // manually install all Evaluation metric as "install .sh" faces bugs (muzahidai)
 ```
 The solution for a common bug in chamfer distance installation can be found in Issue [#6](https://github.com/yuxumin/PoinTr/issues/6)
 ```
