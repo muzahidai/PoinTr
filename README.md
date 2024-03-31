@@ -54,7 +54,9 @@ We provide pretrained AdaPoinTr models (coming soon):
 ```
 pip install -r requirements.txt
 ```
+```
 cd extensions/emd
+```
 ```
 python3 setup.py install
 ```
