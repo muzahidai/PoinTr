@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 ```
 # Chamfer Distance
-bash install.sh    // manually install all Evaluation metric as "install .sh" faces bugs (muzahidai)
+bash install.sh    //  install manually all evaluation metrics as "install .sh" faces bugs (muzahidai)
 ```
 The solution for a common bug in chamfer distance installation can be found in Issue [#6](https://github.com/yuxumin/PoinTr/issues/6)
 ```
