@@ -208,7 +208,9 @@ bash ./scripts/train.sh 0 \
     --config ./cfgs/KITTI_models/PoinTr.yaml \
     --exp_name example
 ```
-
+```
+bash ./scripts/train.sh 0 --config ./cfgs/KITTI_models/PoinTr.yaml --exp_name example    #tested-mztm
+```
 We also provide the Pytorch implementation of several baseline models including GRNet, PCN, TopNet and FoldingNet. For example, to train a GRNet model on ShapeNet-55, run:
 ```
 CUDA_VISIBLE_DEVICES=0,1 bash ./scripts/dist_train.sh 2 13232 \
