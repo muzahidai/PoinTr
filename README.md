@@ -112,6 +112,10 @@ cfgs/PCN_models/AdaPoinTr.yaml ckpts/AdaPoinTr_PCN.pth \
 --save_vis_img  \
 --out_pc_root inference_result/ \
 ```
+In line-mztm
+```
+python tools/inference.py cfgs/PCN_models/AdaPoinTr.yaml ckpts/AdaPoinTr_PCN.pth  --pc_root demo/Test_model/ --save_vis_img  demo/generated-model/  --out_pc_root demo/ generated-model/
+```
 
 ### Evaluation
 
